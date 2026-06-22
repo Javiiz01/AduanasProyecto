@@ -1,33 +1,73 @@
-# Aduanas-iv
+# Sistema de Gestión Aduanera
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [v0](https://v0.app).
+## Descripción del Proyecto
 
-## Built with v0
+El presente proyecto corresponde al desarrollo de una aplicación web orientada a la gestión y control de procesos aduaneros en pasos fronterizos. La plataforma permite administrar información relacionada con personas, vehículos, funcionarios y declaraciones sanitarias, facilitando el seguimiento de los distintos procesos involucrados en el control fronterizo.
 
-This repository is linked to a [v0](https://v0.app) project. You can continue developing by visiting the link below -- start new chats to make changes, and v0 will push commits directly to this repo. Every merge to `main` will automatically deploy.
+La aplicación fue desarrollada utilizando tecnologías modernas de desarrollo web, proporcionando una interfaz intuitiva, responsiva y fácil de utilizar para los distintos usuarios del sistema.
 
-[Continue working on v0 →](https://v0.app/chat/projects/prj_CTLDQNjhYk2NRYlD290fAQPf4gDX)
+## Objetivos
 
-## Getting Started
+* Gestionar el registro y control de personas que realizan cruces fronterizos.
+* Administrar la información de vehículos asociados a los viajeros.
+* Controlar declaraciones sanitarias y documentación requerida por organismos fiscalizadores.
+* Gestionar usuarios y funcionarios del sistema.
+* Mantener un registro de auditoría de las acciones realizadas dentro de la plataforma.
+* Proporcionar estadísticas e información consolidada mediante un panel principal (Dashboard).
 
-First, run the development server:
+## Tecnologías Utilizadas
 
-```bash
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* Componentes UI modernos para la construcción de interfaces responsivas
+
+## Funcionalidades Principales
+
+### Dashboard
+
+Visualización de estadísticas generales y métricas relevantes para el control aduanero.
+
+### Gestión de Personas
+
+Permite registrar, consultar y administrar información de personas que realizan trámites o cruces fronterizos.
+
+### Gestión de Vehículos
+
+Permite registrar y administrar vehículos asociados a los usuarios del sistema.
+
+### Control Sanitario (SAG)
+
+Permite gestionar declaraciones relacionadas con alimentos, mascotas, productos vegetales y productos de origen animal.
+
+### Control Fronterizo
+
+Facilita el seguimiento del estado de aprobación, rechazo o revisión de los procesos de ingreso y salida.
+
+### Administración de Usuarios
+
+Permite gestionar funcionarios y usuarios del sistema mediante diferentes roles de acceso.
+
+### Auditoría
+
+Registro histórico de eventos y acciones realizadas dentro de la plataforma para fines de control y trazabilidad.
+
+## Instalación y Ejecución
+
+1. Clonar el repositorio.
+2. Instalar las dependencias del proyecto:
+
+npm install
+
+3. Ejecutar la aplicación en modo desarrollo:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Abrir el navegador y acceder a:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000
 
-## Learn More
+## Conclusión
 
-To learn more, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [v0 Documentation](https://v0.app/docs) - learn about v0 and how to use it.
+Este proyecto representa una solución moderna para la administración de procesos aduaneros, integrando diferentes módulos de gestión en una única plataforma web. Su diseño modular facilita futuras ampliaciones e integraciones con servicios externos, bases de datos y sistemas de autenticación.
